@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .App_Page{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+  }
+  .Home_Page{
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Welcome_page{
+    text-align: center;
+    background-color: rgb(227, 236, 220);
+    font-size: large;
+    font-style: italic;
+    text-decoration: solid;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    padding: 10px;
+    height: 200px;
+  }
+
+  .home_page_center{
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 25px;
+    background-color: rgb(162, 171, 160);
+    border-radius: 15px;
+    border: 15;
+    box-shadow: 10px;
+  }
+  .Start_Question_Home_Page{
+    text-align: center;
+    padding: 15px;
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+  .YES_Button{
+    background-color: rgb(177, 224, 177);
+    border-radius: 5px;
+    border: 2px;
+    padding: 5px;
+
+  }
+  .YES_Button:hover{
+    background-color: rgb(65, 223, 65);
+  }
+  .NO_Button{
+    background-color: rgb(246, 179, 138);
+    border-radius: 5px;
+    border: 2px;
+    padding: 5px;
+
+  }
+  .NO_Button:hover{
+    background-color: rgb(152, 76, 54);
+  }
